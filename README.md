@@ -185,7 +185,7 @@ Android 后台稳定运行需要允许通知、后台运行及取消电池优化
 安装 Docker Engine 和 Compose 插件后执行：
 
 ```bash
-git clone https://github.com/xiaofan6ya/workbuddy2api.git
+git clone https://github.com/lingmiaowu/workbuddy2api.git
 cd workbuddy2api
 umask 077
 printf 'ADMIN_USERNAME=admin\nADMIN_PASSWORD=%s\nADMIN_JWT_SECRET=%s\n' "$(openssl rand -hex 16)" "$(openssl rand -hex 32)" > .env.docker
